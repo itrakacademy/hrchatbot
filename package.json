@@ -1,6 +1,0 @@
-{
-  "name": "raka-hr-api",
-  "version": "1.0.0",
-  "private": true,
-  "main": "chat/index.js"
-}
