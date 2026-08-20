@@ -851,7 +851,7 @@ ${scope}`;
       // which holds the real Anthropic API key server-side. Do NOT point this
       // at https://api.anthropic.com directly from the browser — that exposes
       // no key (unauthorized) and will typically also be blocked by CORS.
-      const response = await fetch('/api/chat', {
+      const response = await fetch('https://black-pond-07ee1f400.7.azurestaticapps.net/api/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
